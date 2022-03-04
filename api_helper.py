@@ -18,7 +18,7 @@ def get_time(time_string):
 
 class CubeApiPy(NorenApi):
     def __init__(self):
-        NorenApi.__init__(self, host='https://uatcube.tradejini.com/NorenWClientTP/', websocket='wss://uatcube.tradejini.com/NorenWS/', eodhost='http://uatcube.tradejini.com/chartApi/getdata/')
+        NorenApi.__init__(self, host='https://uatcube.tradejini.com/NorenWClientTP/', websocket='wss://uatcube.tradejini.com/NorenWSTP/', eodhost='http://uatcube.tradejini.com/chartApi/getdata/')
 
     
     
