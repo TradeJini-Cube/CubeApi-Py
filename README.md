@@ -1925,9 +1925,13 @@ The call can be made to get the exchange provided token for a scrip or alternate
 Trading Symbol:
 
 SymbolName + ExpDate + 'F' for all data having InstrumentName starting with FUT
+
 SymbolName + ExpDate + 'P' + StrikePrice for all data having InstrumentName starting with OPT and with OptionType PE
+
 SymbolName + ExpDate + 'C' + StrikePrice for all data having InstrumentName starting with OPT and with OptionType C
+
 For MCX, F to be ignored for FUT instruments
+
 ```
 api.searchscrip(exchange='NSE', searchtext='REL')
 ```
