@@ -18,6 +18,7 @@ to build this package and install it on your server please use
 - [logout](#md-logout)
 
 Symbols
+- [scripmasters](#md-scripmasters)
 - [searchscrip](#md-searchscrip)
 - [get_security_info](#md-get_security_info)
 - [get_quotes](#md-get_quotes)
@@ -1166,6 +1167,25 @@ Sample Failure Response :
    "emsg":"Server Timeout :  "
 }
 Market Info
+
+#### <a name="md-scripmasters"></a> scripmasters:
+
+The scrip masters can be downloaded from the following links
+
+https://cube.tradejini.com/NSE_Index_symbols.txt.zip
+
+https://cube.tradejini.com/BSE_symbols.txt.zip
+
+https://cube.tradejini.com/NFO_symbols.txt.zip
+
+https://cube.tradejini.com/MCX_symbols.txt.zip
+
+https://cube.tradejini.com/CDS_symbols.txt.zip
+
+
+example is provided in test/test_download_masters.py 
+
+##Since this is a huge file, users are recommended to download once a day and store it locally.
 
 
 #### <a name="md-searchscrip"></a> searchscrip(exchange, searchtext):
